@@ -9,7 +9,7 @@ npm i
 + Pegue o [Token da sua conta do Discord](https://github.com/frostyle/get-discord-token)
 + Cole seu token na ``index.js`` em ``client.login('Seu Token Aqui')``
 
-+ Para inicial o Bot você deve usar o seguinte comando
++ Para iniciar o Bot você deve usar o seguinte comando
 ```bash
 node index.js
 ```
