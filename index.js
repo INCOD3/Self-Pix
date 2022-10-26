@@ -32,6 +32,11 @@ client.on('messageCreate', async msg => {
 
 if (command === "pix") {
     msg.delete()
+	
+  if(!args[0]){
+        return msg.channel.send('❗ Por favor insira um valor para gerar um pagamento!')
+    }
+	
     let amount = '';
 	amount = Number(args.join(" ").replace(',', '.').replace(/[^\d\.]+/g, ''))
 
